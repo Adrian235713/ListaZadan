@@ -46,22 +46,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Formularze\Kontrolki\RegisterControl.cs">
+    <Compile Include="Kontrolki\RegisterControl.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularze\Kontrolki\RegisterControl.Designer.cs">
+    <Compile Include="Kontrolki\RegisterControl.Designer.cs">
       <DependentUpon>RegisterControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularze\Kontrolki\LoginControl.cs">
+    <Compile Include="Kontrolki\LoginControl.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularze\Kontrolki\LoginControl.Designer.cs">
+    <Compile Include="Kontrolki\LoginControl.Designer.cs">
       <DependentUpon>LoginControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularze\Kontrolki\TasksControls.cs">
+    <Compile Include="Kontrolki\TasksControls.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularze\Kontrolki\TasksControls.Designer.cs">
+    <Compile Include="Kontrolki\TasksControls.Designer.cs">
       <DependentUpon>TasksControls.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularze\MainForm.cs">
@@ -72,13 +72,13 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Formularze\Kontrolki\RegisterControl.resx">
+    <EmbeddedResource Include="Kontrolki\RegisterControl.resx">
       <DependentUpon>RegisterControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularze\Kontrolki\LoginControl.resx">
+    <EmbeddedResource Include="Kontrolki\LoginControl.resx">
       <DependentUpon>LoginControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularze\Kontrolki\TasksControls.resx">
+    <EmbeddedResource Include="Kontrolki\TasksControls.resx">
       <DependentUpon>TasksControls.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularze\MainForm.resx">
@@ -104,7 +104,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Formularze\Klasy\" />
+    <Folder Include="MojeKlasy\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
