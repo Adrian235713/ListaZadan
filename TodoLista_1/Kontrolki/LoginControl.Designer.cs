@@ -79,6 +79,7 @@ namespace TodoLista_1.Formularze.Kontrolki
             this.btnZaloguj.TabIndex = 4;
             this.btnZaloguj.Text = "Zaloguj";
             this.btnZaloguj.UseVisualStyleBackColor = true;
+            this.btnZaloguj.Click += new System.EventHandler(this.btnZaloguj_Click);
             // 
             // btnZalozKonto
             // 
@@ -88,6 +89,7 @@ namespace TodoLista_1.Formularze.Kontrolki
             this.btnZalozKonto.TabIndex = 5;
             this.btnZalozKonto.Text = "Załóż konto";
             this.btnZalozKonto.UseVisualStyleBackColor = true;
+            this.btnZalozKonto.Click += new System.EventHandler(this.btnZalozKonto_Click);
             // 
             // lblWalidacjaLogowania
             // 
@@ -102,7 +104,6 @@ namespace TodoLista_1.Formularze.Kontrolki
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(476, 576);
             this.Controls.Add(this.lblWalidacjaLogowania);
             this.Controls.Add(this.btnZalozKonto);
             this.Controls.Add(this.btnZaloguj);
@@ -111,7 +112,7 @@ namespace TodoLista_1.Formularze.Kontrolki
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblLogin);
             this.Name = "LoginControl";
-            this.Text = "TasksControls";
+            this.Size = new System.Drawing.Size(476, 576);
             this.ResumeLayout(false);
             this.PerformLayout();
 

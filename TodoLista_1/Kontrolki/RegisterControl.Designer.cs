@@ -154,6 +154,7 @@ namespace TodoLista_1.Formularze.Kontrolki
             this.btnCofnij.TabIndex = 12;
             this.btnCofnij.Text = "Cofnij";
             this.btnCofnij.UseVisualStyleBackColor = true;
+            this.btnCofnij.Click += new System.EventHandler(this.btnCofnij_Click);
             // 
             // btnZarejestruj
             // 
@@ -163,6 +164,7 @@ namespace TodoLista_1.Formularze.Kontrolki
             this.btnZarejestruj.TabIndex = 13;
             this.btnZarejestruj.Text = "Zarejestruj";
             this.btnZarejestruj.UseVisualStyleBackColor = true;
+            this.btnZarejestruj.Click += new System.EventHandler(this.btnZarejestruj_Click);
             // 
             // label1
             // 
@@ -177,7 +179,6 @@ namespace TodoLista_1.Formularze.Kontrolki
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(476, 576);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnZarejestruj);
             this.Controls.Add(this.btnCofnij);
@@ -194,7 +195,7 @@ namespace TodoLista_1.Formularze.Kontrolki
             this.Controls.Add(this.lblLogin);
             this.Controls.Add(this.lblImie);
             this.Name = "RegisterControl";
-            this.Text = "RegisterControl";
+            this.Size = new System.Drawing.Size(476, 576);
             this.ResumeLayout(false);
             this.PerformLayout();
 

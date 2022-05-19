@@ -67,7 +67,6 @@ namespace TodoLista_1.Formularze.Kontrolki
             this.btnWyloguj.TabIndex = 2;
             this.btnWyloguj.Text = "Wyloguj";
             this.btnWyloguj.UseVisualStyleBackColor = true;
-            this.btnWyloguj.Click += new System.EventHandler(this.btnWyloguj_Click);
             // 
             // btnDodaj
             // 
@@ -77,7 +76,6 @@ namespace TodoLista_1.Formularze.Kontrolki
             this.btnDodaj.TabIndex = 3;
             this.btnDodaj.Text = "Dodaj";
             this.btnDodaj.UseVisualStyleBackColor = true;
-            this.btnDodaj.Click += new System.EventHandler(this.btnDodaj_Click);
             // 
             // btnEdytuj
             // 
@@ -87,7 +85,6 @@ namespace TodoLista_1.Formularze.Kontrolki
             this.btnEdytuj.TabIndex = 4;
             this.btnEdytuj.Text = "Edytuj";
             this.btnEdytuj.UseVisualStyleBackColor = true;
-            this.btnEdytuj.Click += new System.EventHandler(this.btnEdytuj_Click);
             // 
             // btnUsun
             // 
@@ -97,7 +94,6 @@ namespace TodoLista_1.Formularze.Kontrolki
             this.btnUsun.TabIndex = 5;
             this.btnUsun.Text = "Usun";
             this.btnUsun.UseVisualStyleBackColor = true;
-            this.btnUsun.Click += new System.EventHandler(this.btnUsun_Click);
             // 
             // lvZadania
             // 
@@ -108,7 +104,6 @@ namespace TodoLista_1.Formularze.Kontrolki
             this.lvZadania.FullRowSelect = true;
             this.lvZadania.GridLines = true;
             this.lvZadania.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            this.lvZadania.HideSelection = false;
             this.lvZadania.Location = new System.Drawing.Point(17, 65);
             this.lvZadania.MultiSelect = false;
             this.lvZadania.Name = "lvZadania";
@@ -135,6 +130,7 @@ namespace TodoLista_1.Formularze.Kontrolki
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(476, 576);
             this.Controls.Add(this.lvZadania);
             this.Controls.Add(this.btnUsun);
             this.Controls.Add(this.btnEdytuj);
@@ -143,7 +139,7 @@ namespace TodoLista_1.Formularze.Kontrolki
             this.Controls.Add(this.lblZalogowanyWartosc);
             this.Controls.Add(this.lblZalogowany);
             this.Name = "TasksControls";
-            this.Size = new System.Drawing.Size(476, 576);
+            this.Text = "TasksControls";
             this.ResumeLayout(false);
             this.PerformLayout();
 
