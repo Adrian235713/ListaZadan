@@ -47,19 +47,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Kontrolki\RegisterControl.cs">
-      <SubType>Form</SubType>
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Kontrolki\RegisterControl.Designer.cs">
       <DependentUpon>RegisterControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Kontrolki\LoginControl.cs">
-      <SubType>Form</SubType>
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Kontrolki\LoginControl.Designer.cs">
       <DependentUpon>LoginControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Kontrolki\TasksControls.cs">
-      <SubType>Form</SubType>
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Kontrolki\TasksControls.Designer.cs">
       <DependentUpon>TasksControls.cs</DependentUpon>
@@ -104,7 +104,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="MojeKlasy\" />
+    <Folder Include="Klasy\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

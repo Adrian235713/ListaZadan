@@ -47,19 +47,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Kontrolki\RegisterControl.cs">
-      <SubType>UserControl</SubType>
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Kontrolki\RegisterControl.Designer.cs">
       <DependentUpon>RegisterControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Kontrolki\LoginControl.cs">
-      <SubType>UserControl</SubType>
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Kontrolki\LoginControl.Designer.cs">
       <DependentUpon>LoginControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Kontrolki\TasksControls.cs">
-      <SubType>UserControl</SubType>
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Kontrolki\TasksControls.Designer.cs">
       <DependentUpon>TasksControls.cs</DependentUpon>
