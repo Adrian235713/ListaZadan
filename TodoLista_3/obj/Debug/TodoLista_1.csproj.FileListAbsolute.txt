@@ -32,3 +32,15 @@ C:\Users\Nubi\Desktop\xxxx\TodoLista_1\obj\Debug\TodoLista_1.csproj.GenerateReso
 C:\Users\Nubi\Desktop\xxxx\TodoLista_1\obj\Debug\TodoLista_1.csproj.CoreCompileInputs.cache
 C:\Users\Nubi\Desktop\xxxx\TodoLista_1\obj\Debug\TodoLista_1.exe
 C:\Users\Nubi\Desktop\xxxx\TodoLista_1\obj\Debug\TodoLista_1.pdb
+C:\Users\Nubi\Desktop\ListaZadan-main\TodoLista_3\bin\Debug\TodoLista_1.exe
+C:\Users\Nubi\Desktop\ListaZadan-main\TodoLista_3\bin\Debug\TodoLista_1.pdb
+C:\Users\Nubi\Desktop\ListaZadan-main\TodoLista_3\obj\Debug\TodoLista_1.csproj.AssemblyReference.cache
+C:\Users\Nubi\Desktop\ListaZadan-main\TodoLista_3\obj\Debug\TodoLista_1.Formularze.Kontrolki.RegisterControl.resources
+C:\Users\Nubi\Desktop\ListaZadan-main\TodoLista_3\obj\Debug\TodoLista_1.Formularze.Kontrolki.LoginControl.resources
+C:\Users\Nubi\Desktop\ListaZadan-main\TodoLista_3\obj\Debug\TodoLista_1.Formularze.Kontrolki.TasksControls.resources
+C:\Users\Nubi\Desktop\ListaZadan-main\TodoLista_3\obj\Debug\TodoLista_1.MainForm.resources
+C:\Users\Nubi\Desktop\ListaZadan-main\TodoLista_3\obj\Debug\TodoLista_1.Properties.Resources.resources
+C:\Users\Nubi\Desktop\ListaZadan-main\TodoLista_3\obj\Debug\TodoLista_1.csproj.GenerateResource.cache
+C:\Users\Nubi\Desktop\ListaZadan-main\TodoLista_3\obj\Debug\TodoLista_1.csproj.CoreCompileInputs.cache
+C:\Users\Nubi\Desktop\ListaZadan-main\TodoLista_3\obj\Debug\TodoLista_1.exe
+C:\Users\Nubi\Desktop\ListaZadan-main\TodoLista_3\obj\Debug\TodoLista_1.pdb

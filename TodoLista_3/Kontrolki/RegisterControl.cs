@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TodoLista_1.Klasy;
 
 namespace TodoLista_1.Formularze.Kontrolki
 {
@@ -29,7 +30,15 @@ namespace TodoLista_1.Formularze.Kontrolki
 
         private void btnZarejestruj_Click(object sender, EventArgs e)
         {
-            _mainForm.PokazTasksControl();
+
+            if (_mainForm.UserManager.CzyLoginWolny(tbLogin.Text))
+            {
+                User newUser = new User(Guid.NewGuid(), tbImie.Text, tbLogin.Text, tbHaslo.Text);
+                _mainForm.UserManager.AddUser(newUser);
+                _mainForm.PokazTasksControl(newUser); /*<<<*/
+            }
+            
+
         }
     }
 }

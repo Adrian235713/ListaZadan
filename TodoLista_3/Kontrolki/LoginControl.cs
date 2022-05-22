@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TodoLista_1.Klasy;
 
 namespace TodoLista_1.Formularze.Kontrolki
 {
@@ -27,7 +28,34 @@ namespace TodoLista_1.Formularze.Kontrolki
 
         private void btnZaloguj_Click(object sender, EventArgs e)
         {
-            _mainForm.PokazTasksControl();
+            if(string.IsNullOrWhiteSpace(tbLogin.Text) || string.IsNullOrWhiteSpace(tbHaslo.Text)){
+                lblWalidacjaLogowania.Visible = true;
+                lblWalidacjaLogowania.Text = "Login i haslo jest wymagane";
+            }
+            else
+            {
+                User urzytkownik = _mainForm.UserManager.WyszukajUrzytkownika(tbLogin.Text, tbHaslo.Text);
+                if (urzytkownik == null)
+                {
+                    lblWalidacjaLogowania.Visible = true;
+                    lblWalidacjaLogowania.Text = "Nieporawny login i hasło";
+                }
+
+                else
+                {
+                    _mainForm.PokazTasksControl(urzytkownik);
+                }
+            }
+
+
+
+
+
+
+
+
+
+           
         }
 
         private void btnZalozKonto_Click(object sender, EventArgs e)

@@ -7,19 +7,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TodoLista_1.Klasy;
 
 namespace TodoLista_1.Formularze.Kontrolki
 {
     public partial class TasksControls : UserControl
     {
         private MainForm _mainForm;
-        public TasksControls(MainForm mainForm)
+        private User _zlogowany;
+        public TasksControls(MainForm mainForm, User user)
         {
             InitializeComponent();
-
             _mainForm = mainForm;
-
             Dock = DockStyle.Fill;
+
+            _zlogowany = user;
+            lblZalogowanyWartosc.Text = _zlogowany.Imie;
+
+
         }
 
         private void btnWyloguj_Click(object sender, EventArgs e)
